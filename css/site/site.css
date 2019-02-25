@@ -17,7 +17,7 @@
   background-color: #000000;
 }
 .generic-block--background-color-light {
-  background-color: #F7F9F8;
+  background-color: #FFFFFF;
 }
 .generic-block--background-color-light-high {
   background-color: #ffffff;
@@ -104,8 +104,7 @@
   border: 2px solid #F7F9F8;
   border-radius: 35px;
   font-size: 40px;
-  color: #F7F9F8;
-  background: #FF9E1B;
+  background: #005594;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
@@ -114,7 +113,7 @@
 .button-circle:focus {
   outline: none;
   color: #F7F9F8;
-  background: rgba(255, 158, 27, 0.4);
+  background: rgba(0, 85, 148, 0.5);
 }
 .button-circle i.animated {
   -webkit-transition-property: -webkit-transform;
@@ -253,7 +252,7 @@
   background-color: #000000;
 }
 .section--background-color-light {
-  background-color: #F7F9F8;
+  background-color: #FFFFFF;
 }
 .section--background-color-light-high {
   background-color: #ffffff;
@@ -281,11 +280,15 @@
   font-weight: bold;
   border-bottom: solid 2px;
   display: inline;
+  color: #005594;
 }
 @media (min-width: 767px) {
   .section__main-title {
     font-size: 40px;
   }
+}
+.section__sub-title {
+  color: #005594;
 }
 .section__text {
   padding-top: 20px;
@@ -335,7 +338,7 @@
 }
 .section__separator--color-light {
   color: #F7F9F8;
-  background-color: #F7F9F8;
+  background-color: #FFFFFF;
 }
 .section__separator--color-light-high {
   color: #ffffff;
@@ -637,5 +640,8 @@ html {
 .intro {
   background: #dee86b url(../../img/site/fondo.png) no-repeat scroll center center;
   background-size: cover;
+}
+.title {
+  color: #005594;
 }
 /*# sourceMappingURL=site.css.map */

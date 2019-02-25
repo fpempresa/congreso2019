@@ -17,7 +17,7 @@
   background-color: #000000;
 }
 .generic-block--background-color-light {
-  background-color: #F7F9F8;
+  background-color: #FFFFFF;
 }
 .generic-block--background-color-light-high {
   background-color: #ffffff;
@@ -41,7 +41,7 @@
   background-color: #000000;
 }
 .section--background-color-light {
-  background-color: #F7F9F8;
+  background-color: #FFFFFF;
 }
 .section--background-color-light-high {
   background-color: #ffffff;
@@ -69,11 +69,15 @@
   font-weight: bold;
   border-bottom: solid 2px;
   display: inline;
+  color: #005594;
 }
 @media (min-width: 767px) {
   .section__main-title {
     font-size: 40px;
   }
+}
+.section__sub-title {
+  color: #005594;
 }
 .section__text {
   padding-top: 20px;
@@ -123,7 +127,7 @@
 }
 .section__separator--color-light {
   color: #F7F9F8;
-  background-color: #F7F9F8;
+  background-color: #FFFFFF;
 }
 .section__separator--color-light-high {
   color: #ffffff;
